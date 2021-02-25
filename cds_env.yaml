@@ -1,0 +1,26 @@
+name: cds_env
+channels:
+  - defaults
+dependencies:
+  - python
+  - pip
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - ipython
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  - scipy
+  - numpy
+  - pandas
+  - pydot
+  - tensorflow
+  - nomkl
+  - xlrd
+  - pip:
+    - xgboost
+    - lightgbm
+    - catboost
+    - optuna
+    - optuna-dashboard
