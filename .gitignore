@@ -133,3 +133,7 @@ dec-2020/
 
 # Mac OS Files
 .DS_Store
+wa/analytics/catboost_info/catboost_training.json
+wa/analytics/catboost_info/learn/events.out.tfevents
+wa/analytics/catboost_info/learn_error.tsv
+wa/analytics/catboost_info/time_left.tsv
