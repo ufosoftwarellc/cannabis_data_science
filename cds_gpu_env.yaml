@@ -1,0 +1,43 @@
+name: cds_gpu_env
+channels:
+  - conda-forge
+  - rapidsai
+  - nvidia
+  - fastai
+  - pytorch
+  - defaults
+dependencies:
+  - python>=3.8
+  - cffi
+  - cmake
+  - cudatoolkit>=11.0
+  - cudnn=>8.1.0
+  - dask
+  - dask-ml
+  - dask_labextension
+  - fastparquet
+  - fastai
+  - hypothesis
+  - jupyterlab>3.0
+  - matplotlib
+  - nltk
+  - numpy
+  - pip
+  - pandas
+  - pandas-profiling
+  - protobuf
+  - pyarrow
+  - pytorch
+  - rapids>0.18
+  - seaborn
+  - statsmodels
+  - tpot
+  - xlrd
+  - pip:
+    - autokeras
+    - catboost
+    - lightgbm
+    - openpyxl
+    - tensorflow-datasets
+    - tensorflow-gpu>=2.4.1
+    - torchvision
